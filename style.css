@@ -1,0 +1,227 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header {
+	width: 100%;
+	padding: 19px 0;
+	text-align: center;
+	font-size: 25px;
+	color: Coral;
+	background: black;
+
+}
+#img-header {
+	position: absolute;
+	left: 8%;
+	top: 5%;
+	width: 5%;
+	cursor: pointer;
+}
+nav ul {
+	margin: 2% 0 0 64%;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 30px 0 0;
+}
+nav a {
+	text-decoration: none;
+	font-size: 19px;
+	color:Coral;
+	font-weight: bold;
+}
+
+nav a:hover{
+	color: OrangeRed;
+	font-size: 20px;
+}
+main  {
+	text-align: center;
+	text-indent: 26px;
+	padding: 5px 20px;
+	font-size: 20px;
+}
+main p{
+	padding-bottom: 30px;
+}
+
+.for {
+    font-size: 28px;
+    text-align: left;
+    padding: 30px 0 0 99px;
+  
+}
+
+input {
+	padding: 7px 0 7px 30px;
+	color: Coral;
+	border: 1px solid black;
+}
+.nome {
+	padding: 7px 0 7px 30px;
+}
+.sobre {
+	padding: 7px 0 7px 30px;
+}
+.text {
+	padding: 3% 54% 0 0;
+}
+.text2 {
+	font-size: 20px;
+	padding: 0 61% 0 0;
+}
+.checkbox {
+	padding: 0 20px;
+}
+.enviar {
+	width: 39%;
+	padding: 15px 0;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 7px;
+	transition: 2s background;
+	cursor: pointer
+}
+.enviar:hover {
+	color: Coral;
+}
+
+textarea {
+	position: relative;
+	right: 29%;
+	border: 1px solid black;
+}
+#lista-main {
+	font-size: 19px;
+	text-align: left;
+	padding: 20px 0 0 50px;
+	text-indent: -6px;
+}
+.listas {
+	
+	line-height: 1.5;
+	padding: 10px 90px 0 0;
+}
+.sub-titulos{
+	padding: 20px 0;
+}
+.titulos{
+	padding: 40px 0;
+}
+
+table,td {
+	width: 40%;
+	text-align: left;
+	border: 2px solid black;
+	margin: auto;
+}
+
+.td {
+	text-align: center;
+}
+table td {
+	border: 1px solid black;
+	padding: 0 7px;	
+}
+
+footer {
+	background: black;
+	color:Coral;
+}
+
+footer h1 {
+	position: relative;
+	text-align: center;
+	font-size: 13px;
+	top: 50px;
+}
+
+#img-footer{
+	position: relative;
+	width: 3%;
+	margin: 2% 0 0 60%;
+}
+
+.foot{
+	text-align: center;
+	font-size: 12px;
+	color: Coral;
+}
+
+@media (max-width:  1000px) {
+	nav ul {
+		position: relative;
+		margin: 1px 25px;
+		padding-left: 70px;
+	}	
+	nav a{
+		font-size: 10px;
+	}
+
+		nav a:hover{
+			font-size: 10px;
+	}
+		h1 {
+			padding-top: 5px;
+			font-size: 14px;
+	}
+		p {
+			font-size: 10px;
+	}
+		.listas {
+			font-size: 11px;
+			padding: 0 5px;
+			line-height: 2;
+			text-indent: -10px;
+	}
+		table tr {
+			font-size: 9px;
+	}
+		footer{
+			font-size: 10px;
+	}
+		.foot {
+			font-size: 10px;
+			padding-top: 5px;
+	}
+		#img-footer {
+			width: 8%;
+			margin-left: 30px;
+	}
+		.for {
+			text-align: left;
+			font-size: 19px;
+	}
+
+		input{
+			text-align: center;
+			font-size: 10px;
+			height: 9px;	
+		}
+		.text2 {
+			padding-left: 10px;
+		}
+		.checkbox {
+			margin: 0 60% 0 0;
+		}
+		legend {
+			font-size: 12px;
+			text-indent: -10px;
+			margin: 0 10px 0 90px;
+		}
+		textarea{
+			position: relative;
+			width: 40%;
+			right: 10%;
+		}
+		.enviar {
+			position: relative;
+			left: 15%;
+		}
+}
